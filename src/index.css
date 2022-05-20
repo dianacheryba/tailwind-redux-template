@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .button {
+    @apply appearance-none h-14 bg-purple-700 bg-opacity-10 text-3xl px-3 outline-none rounded-sm border-solid border-transparent border-2 text-purple-700 pb-1 cursor-pointer transition-all;
+  }
+}

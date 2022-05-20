@@ -6,8 +6,8 @@ import {
   decrement,
   incrementByAmount,
   incrementAsync,
-} from "./../../redux/counter/counterSlice";
-import Counter from "./components/counter";
+} from "../../redux/counter/counterSlice";
+import Counter from "./components/Counter";
 
 const CounterPage = () => {
   const count = useSelector(selectCount);
